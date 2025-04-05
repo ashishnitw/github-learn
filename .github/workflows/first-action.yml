@@ -6,7 +6,8 @@ jobs:
     steps:
       - name: Print greeting
         run: echo Hello, world!
+      # Running Multi-Line Shell Commands
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo "First output"
+          echo "Second output"
